@@ -10,7 +10,7 @@ module.exports = {
       jsOutput: path.join('web', 'index.js')
     }
   },
-  eslint: false,  //是否需要开启eslint检测
+  eslint: true,  //是否需要开启eslint检测
   compilers: {
     less: {
       compress: true
